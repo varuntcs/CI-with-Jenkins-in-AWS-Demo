@@ -14,7 +14,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<distributionManagement>
+<repository>
+<id>maven-hosted</id>
+<url>http://34.93.67.110:8081/repository/maven_hosted/</url>
+</repository>
 
+</distributionManagement>
    <dependencies>
         <dependency>
             <groupId>junit</groupId>
